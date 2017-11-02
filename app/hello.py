@@ -4,8 +4,8 @@ import requests
 app = Flask("MyApp")
 
 @app.route("/")
-def hello():
-    return "Hello World"
+def homepage():
+    return "Homepage"
 
 @app.route("/mail")
 def mailpage():
